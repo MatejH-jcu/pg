@@ -169,7 +169,6 @@ if __name__ == "__main__":
     ]
 
     for piece in pieces:
-        print(piece)
-        print("Moves:", piece.possible_moves())
-        print("Position:", piece.position)
-        print("-" * 30)
+           print(piece)
+           print(piece.position)
+   
